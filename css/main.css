@@ -83,9 +83,16 @@ a {
 .btn.btn--main {
   color: var(--white);
   background-color: var(--primary-color);
+  transition: all 0.3s;
 }
 
 .btn.btn--white {
   color: var(--neutral-dark-cyan);
   background-color: var(--white);
+  transition: all 0.3s;
+}
+
+.btn.btn--main:hover,
+.btn.btn--white:hover {
+  opacity: 0.6;
 }

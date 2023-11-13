@@ -15,6 +15,7 @@
   align-items: flex-start;
   gap: 3rem;
   margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer-p-icon {
@@ -62,4 +63,8 @@
 
 .footer-social-media a i {
   font-size: 1.6rem;
+}
+
+.footer-copy {
+  text-align: right;
 }

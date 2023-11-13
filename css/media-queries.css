@@ -26,11 +26,15 @@
   }
 
   .img-responsive {
-    width: 100%!important;
+    width: 100% !important;
   }
 
   .container {
     padding: 0 3rem;
+  }
+
+  .home-cta {
+    margin: 1rem 0;
   }
 
   .card {
@@ -65,5 +69,9 @@
   .footer-social-media {
     align-self: center;
     margin-top: 2.5rem;
+  }
+
+  .footer-copy {
+    text-align: center;
   }
 }

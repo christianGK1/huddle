@@ -58,6 +58,10 @@ a {
   color: var(--neutral-dark-cyan);
 }
 
+.text-center {
+  text-align: center;
+}
+
 .mb-l {
   margin-bottom: 3.5rem;
 }

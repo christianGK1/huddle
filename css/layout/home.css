@@ -1,0 +1,35 @@
+.header {
+  min-height: 100vh;
+  background: url(../../assets/images/bg-hero-desktop.svg),
+    var(--neutral-pale-cyan) no-repeat center/cover;
+    padding-bottom: 5rem;
+}
+
+/* Navigation */
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12rem;
+}
+
+.header-logo {
+  height: 3rem;
+}
+
+/* Home */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.home-description p {
+  margin: 2rem 0;
+}
+
+.home-img img {
+  width: 50vw;
+}

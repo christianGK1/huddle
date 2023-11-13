@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  html {
+    font-size: 55%;
+  }
+
+  .home {
+    flex-direction: column;
+    margin-top: 10rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 48%;
+  }
+  
+  .card {
+    flex-direction: column;
+    padding: 5rem;
+    text-align: center;
+  }
+
+  .card-description {
+    order: 1;
+    padding-right: 0;
+  }
+
+  .card:nth-child(even) .card-description {
+    width: 100%;
+  }
+
+  .main-cta {
+    width: 80%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 0;
+    font-size: 1.6rem;
+  }
+
+  .footer-link-col:first-child {
+    margin-bottom: 4rem;
+  }
+
+  .footer-social-media {
+    align-self: center;
+    margin-top: 2.5rem;
+  }
+}

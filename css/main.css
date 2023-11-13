@@ -1,0 +1,87 @@
+@import url(layout/home.css);
+@import url(layout/articles.css);
+@import url(layout/footer.css);
+
+:root {
+  --primary-color: hsl(322, 100%, 66%);
+  --neutral-pale-cyan: hsl(193, 100%, 96%);
+  --neutral-dark-cyan: hsl(192, 100%, 9%);
+  --neutral-grayish-blue: hsl(208, 11%, 55%);
+
+  --white: #fff;
+  --black: #000;
+
+  --headlineFont: 'Poppins', sans-serif;
+  --headline1: 600 4rem / 1.4 var(--headlineFont);
+  --headline2: 600 3.2rem / normal var(--headlineFont);
+
+  --bodyFont: 'Open Sans', sans-serif;
+  --body: 400 1.8rem / 1.7 var(--bodyFont);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: var(--body);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utilities */
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.heading-primary {
+  font: var(--headline1);
+  color: var(--neutral-dark-cyan);
+}
+
+.heading-secondary {
+  font: var(--headline2);
+  color: var(--neutral-dark-cyan);
+}
+
+.mb-l {
+  margin-bottom: 3.5rem;
+}
+
+.mb-s {
+  margin-bottom: 1.8rem;
+}
+
+/* Components */
+.btn {
+  display: inline-block;
+  padding: 1rem 5.5rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  background-color: var(--primary-color);
+  box-shadow: 1rem 1rem 2rem -1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.btn.btn--main {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.btn.btn--white {
+  color: var(--neutral-dark-cyan);
+  background-color: var(--white);
+}

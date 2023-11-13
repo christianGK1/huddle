@@ -5,6 +5,10 @@
   background-color: var(--neutral-dark-cyan);
 }
 
+.footer-logo {
+  height: 3rem;
+}
+
 .footer-links {
   display: flex;
   justify-content: space-between;
